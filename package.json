@@ -1,7 +1,7 @@
 {
   "name": "add-demo-npm",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A demo npm package to compliment a Medium how-to article.",
   "main": "./dist/add-demo-npm.js",
   "scripts": {
     "build": "tsc",
@@ -9,13 +9,22 @@
     "coverage": "nyc npm test report --reporter=cobertura --reporter=text-summary",
     "lint": "eslint \"**\\*.ts\""
   },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ClydeDz/add-demo-npm.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "demo npm",
+    "add",
+    "calculate"
+  ],
+  "author": "Clyde D'Souza",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ClydeDz/add-demo-npm/issues"
   },
