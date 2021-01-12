@@ -1,6 +1,6 @@
 {
   "name": "add-demo-npm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A demo npm package to compliment a Medium how-to article.",
   "main": "./dist/add-demo-npm.js",
   "scripts": {
