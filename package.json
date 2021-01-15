@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "ts-mocha tests/**/*.test.ts",
-    "coverage": "nyc npm test report --reporter=cobertura --reporter=text-summary",
+    "coverage": "nyc npm test",
     "lint": "eslint \"**\\*.ts\""
   },
   "files": [
